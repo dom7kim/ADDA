@@ -1,6 +1,6 @@
 # Adversarial Discriminative Domain Adaptation (ADDA) with a Single Encoder in PyTorch
 
-This repository contains a PyTorch implementation of the Adversarial Discriminative Domain Adaptation ([ADDA](https://arxiv.org/abs/1702.05464)) model, with a unique modification: it uses a single encoder for both the source and target domains. The model is demonstrated using the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset as the source domain and the [SVHN](http://ufldl.stanford.edu/housenumbers/) dataset as the target domain, leveraging the ResNet-18 architecture.
+This repository contains a PyTorch implementation of the Adversarial Discriminative Domain Adaptation ([ADDA](https://arxiv.org/abs/1702.05464)) model, with a modification: it uses a single encoder for both the source and target domains. The model is demonstrated using the [MNIST](http://yann.lecun.com/exdb/mnist/) dataset as the source domain and the [SVHN](http://ufldl.stanford.edu/housenumbers/) dataset as the target domain, leveraging the ResNet-18 architecture.
 
 ## Model Overview
 The ADDA model aims to minimize the domain discrepancy between source and target feature representations while maintaining the features' discriminative power for classification. This is achieved by incorporating three types of losses:

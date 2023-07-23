@@ -14,7 +14,7 @@ The ADDA model aims to minimize the domain discrepancy between source and target
 The overall objective of ADDA is to minimize the source classification and target encoder losses while maximizing the discriminator loss.
 
 ## Advantages of Using a Single Encoder
-Our implementation deviates from the original ADDA paper by utilizing a single encoder for both domains, yielding several benefits:
+My implementation deviates from the original [ADDA](https://arxiv.org/abs/1702.05464) paper by utilizing a single encoder for both domains, yielding several benefits:
 
 - **Computational Efficiency**: Training one encoder instead of two reduces the model's computational demands, resulting in faster training times and lower memory consumption.
 
